@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	// body {
+	// 	font-family: "Noto_Sans_KR", "Inter", sans-serif;
+	// }
+}
+
+@layer components {
+	.m-center {
+		margin: 0 auto;
+	}
+
+	.full {
+		@apply w-full h-full;
+	}
+
+	.flex-center {
+		@apply flex items-center;
+	}
+
+	.flex-center-center {
+		@apply flex-center justify-center;
+	}
+
+	.flex-center-between {
+		@apply flex-center justify-between;
+	}
+
+	.flex-center-start {
+		@apply flex-center justify-start;
+	}
+
+	.flex-col-center {
+		@apply flex-center flex-col;
+	}
+
+	.none-outline {
+		outline: none;
+	}
+}
